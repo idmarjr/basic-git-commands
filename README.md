@@ -15,9 +15,9 @@
 `git config user.email "myemail@mydomain.com"`
 
 ###Global config
-This will set it will set this information to all repositories from your computer.
-`git config --global user.name "Your name here"`
-`git config --global user.email "myemail@mydomain.com"`
+This will set it will set this information to all repositories from your computer.  
+`git config --global user.name "Your name here"`  
+`git config --global user.email "myemail@mydomain.com"`  
 
 ##Workflow commands
 ---
@@ -54,10 +54,10 @@ This will set it will set this information to all repositories from your compute
 
 ###See the history of changes
 `git log`
-`git log --oneline` (Show a small version of your log)
-`git log --graph` (Show a graphical representation of commits/branches)
-`git log --reverse` (Show a reverse log)
-`git log --since=yesterday` (Show only commits from yesterday and before)
+`git log --oneline` (Show a small version of your log)  
+`git log --graph` (Show a graphical representation of commits/branches)  
+`git log --reverse` (Show a reverse log)  
+`git log --since=yesterday` (Show only commits from yesterday and before)  
 `git log --author "Name of someone"` (Show only commits from that person)  
 
 ###See details of a commit
