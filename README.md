@@ -19,3 +19,54 @@ This will set it will set this information to all repositories from your compute
 `git config --global user.name "Your name here"`  
 `git config --global user.email "myemail@mydomain.com"`  
 
+##Workflow commands
+---
+###Start a repo
+`git init`
+
+###See repo's status
+`git status`
+
+###Revert modified files
+
+####Individual file
+`git checkout "path/to/file.html"`
+
+####All files
+`git checkout .`
+
+###Add files to stage area
+
+####Individual file
+`git add "path/to/file.html"`
+
+####All files
+`git add .`
+
+###Commit files in stage area
+`git commit -m "A nice message about your commit"`
+
+###Pull things to remote repo
+`git pull`
+
+###Push things to remote repo
+`git push`
+
+###See the history of changes
+`git log`
+`git log --oneline` (Show a small version of your log)
+`git log --graph` (Show a graphical representation of commits/branches)
+`git log --reverse` (Show a reverse log)
+`git log --since=yesterday` (Show only commits from yesterday and before)
+`git log --author "Name of someone"` (Show only commits from that person)
+
+###See details of a commit
+`git show` (Show changes from the last commit)
+`git show SHA` (Show changes from a specific commit)
+
+##See differences in a commit
+`git diff SHA`
+
+###Revert to a previous commit
+`git revert SHA`
+
