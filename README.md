@@ -48,12 +48,17 @@ This will set it will set this information to all repositories from your compute
 `git push`
 
 ###See the history of changes
-`git log`
+`git log`  
 `git log --oneline` (Show a small version of your log)  
 `git log --graph` (Show a graphical representation of commits/branches)  
 `git log --reverse` (Show a reverse log)  
 `git log --since=yesterday` (Show only commits from yesterday and before)  
-`git log --author "Name of someone"` (Show only commits from that person)  
+`git log --author "Name of someone"` (Show only commits from that person) 
+
+
+You can concatenate parameters:  
+`git log -- oneline -- reverse`
+
 
 ###See details of a commit
 `git show` (Show changes from the last commit)
