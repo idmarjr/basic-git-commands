@@ -67,6 +67,6 @@ You can concatenate parameters:
 ###See differences in a commit
 `git diff SHA`
 
-###Revert to a previous commit
+###Revert changes of a specific commit
 `git revert SHA`
 
