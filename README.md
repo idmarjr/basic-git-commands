@@ -41,6 +41,9 @@ This will set it will set this information to all repositories from your compute
 ###Pull things to remote repo
 `git pull`
 
+###Pull things from remote repository and rebase your changes on top of it
+`git pull --rebase`
+
 ###Push things to remote repo
 `git push`
 
