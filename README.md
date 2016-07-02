@@ -1,4 +1,4 @@
-# Basic git commands
+#Basic git commands
 
 ##Your information
 ---
@@ -28,20 +28,12 @@ This will set it will set this information to all repositories from your compute
 `git status`
 
 ###Revert modified files
-
-####Individual file
-`git checkout "path/to/file.html"`
-
-####All files
-`git checkout .`
+`git checkout "path/to/file.html"` (Individual file)  
+`git checkout .` (All files)  
 
 ###Add files to stage area
-
-####Individual file
-`git add "path/to/file.html"`
-
-####All files
-`git add .`
+`git add "path/to/file.html"` (Individual file)  
+`git add .` (All files)"  
 
 ###Commit files in stage area
 `git commit -m "A nice message about your commit"`
