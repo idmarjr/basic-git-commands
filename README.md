@@ -61,10 +61,10 @@ You can concatenate parameters:
 
 
 ###See details of a commit
-`git show` (Show changes from the last commit)
+`git show` (Show changes from the last commit)  
 `git show SHA` (Show changes from a specific commit)
 
-##See differences in a commit
+###See differences in a commit
 `git diff SHA`
 
 ###Revert to a previous commit
