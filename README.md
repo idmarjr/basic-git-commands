@@ -70,3 +70,18 @@ You can concatenate parameters:
 ###Revert changes of a specific commit
 `git revert SHA`
 
+##Branches
+
+###View list of local branches
+`git branche`  
+
+###Change to a different branch
+`git checkout name-of-branch`  
+
+###Create a new branch and cheout to it
+`git checout -b new-branch`
+
+##Merge branches
+To merge a branch you need to checkout to the branch that will receive the merge:  
+`git checkout branch-wll-receive-merge`  
+`git merge branch-to-be-merged`  
