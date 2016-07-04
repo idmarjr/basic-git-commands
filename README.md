@@ -79,6 +79,9 @@ You can concatenate parameters:
 `git branch -d name-of-branch` (Delete local branch)  
 `git push --delete origin name-of-branch` (Delete remote branch)  
 
+###Publish branch to remote repository
+`git push -u origin name-of-branch`
+
 ##Merge branches
 To merge a branch you need to checkout to the branch that will receive the merge:  
 1. `git checkout branch-will-receive-merge`  
