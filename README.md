@@ -77,6 +77,10 @@ You can concatenate parameters:
 ###Create a new branch and checkout to it
 `git checkout -b new-branch`
 
+###Delete a branch
+`git branch -d name-of-branch` (Delete local branch)  
+`git push --delete origin name-of-branch` (Delete remote branch)  
+
 ##Merge branches
 To merge a branch you need to checkout to the branch that will receive the merge:  
 1. `git checkout branch-will-receive-merge`  
