@@ -73,9 +73,7 @@ You can concatenate parameters:
 
 ###Change to a different branch
 `git checkout name-of-branch`  
-
-###Create a new branch and checkout to it
-`git checkout -b new-branch`
+`git checkout -b name-of-new-branch` (Create a new branch from the actual and checkout to it)  
 
 ###Delete a branch
 `git branch -d name-of-branch` (Delete local branch)  
