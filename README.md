@@ -66,7 +66,8 @@ You can concatenate parameters:
 `git diff SHA`
 
 ###Revert changes of a specific commit
-`git revert SHA`
+`git revert SHA` (Creating a new commit)  
+`git revert -m SHA` (Not creating a new commit. Keep revert files unstaged)  
 
 ##Branches
 
