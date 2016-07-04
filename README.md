@@ -55,10 +55,8 @@ This will set it will set this information to all repositories from your compute
 `git log --since=yesterday` (Show only commits from yesterday and before)  
 `git log --author "Name of someone"` (Show only commits from that person) 
 
-
 You can concatenate parameters:  
-`git log -- oneline -- reverse`
-
+`git log -- oneline --reverse --graph`
 
 ###See details of a commit
 `git show` (Show changes from the last commit)  
@@ -73,13 +71,13 @@ You can concatenate parameters:
 ##Branches
 
 ###View list of local branches
-`git branche`  
+`git branch`  
 
 ###Change to a different branch
 `git checkout name-of-branch`  
 
-###Create a new branch and cheout to it
-`git checout -b new-branch`
+###Create a new branch and checkout to it
+`git checkout -b new-branch`
 
 ##Merge branches
 To merge a branch you need to checkout to the branch that will receive the merge:  
