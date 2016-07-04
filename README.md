@@ -41,9 +41,6 @@ This will set it will set this information to all repositories from your compute
 ###Pull things to remote repo
 `git pull`
 
-###Pull things from remote repository and rebase your changes on top of it
-`git pull --rebase`
-
 ###Push things to remote repo
 `git push`
 
@@ -82,5 +79,16 @@ You can concatenate parameters:
 
 ##Merge branches
 To merge a branch you need to checkout to the branch that will receive the merge:  
-`git checkout branch-wll-receive-merge`  
-`git merge branch-to-be-merged`  
+1. `git checkout branch-will-receive-merge`  
+2. `git merge branch-to-be-merged`  
+
+##Rebase
+
+###Pull things from remote repository and rebase your changes on top of it
+`git pull --rebase`
+
+###Rebase from branch to master
+You need to be in the branch:
+1. `git rebase maseter`
+2. `git checkout master`
+3. `git merge name-of-branch`
