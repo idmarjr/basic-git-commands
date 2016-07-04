@@ -88,7 +88,7 @@ To merge a branch you need to checkout to the branch that will receive the merge
 `git pull --rebase`
 
 ###Rebase from branch to master
-You need to be in the branch:
-1. `git rebase maseter`
-2. `git checkout master`
-3. `git merge name-of-branch`
+You need to be in the branch:  
+1. `git rebase maseter`  
+2. `git checkout master`  
+3. `git merge name-of-branch`  
