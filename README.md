@@ -93,8 +93,8 @@ You can concatenate parameters:
 
 ##Merge branches
 To merge a branch you need to checkout to the branch that will receive the merge:  
-1. `git checkout branch-will-receive-merge`  
-2. `git merge branch-to-be-merged`  
+1. `git checkout name-of-branch-will-receive-merge`  
+2. `git merge name-of-branch-to-be-merged`  
 
 ##Rebase
 
