@@ -15,7 +15,7 @@
 `git config user.email "myemail@mydomain.com"`
 
 ###Global config
-This will set it will set this information to all repositories from your computer.  
+This will set information to all repositories from your computer.  
 `git config --global user.name "Your name here"`  
 `git config --global user.email "myemail@mydomain.com"`  
 
@@ -31,7 +31,7 @@ This will set it will set this information to all repositories from your compute
 `git checkout "path/to/file.html"` (Individual file)  
 `git checkout .` (All files)  
 
-###Add files to stage area
+###Add changes to stage area
 `git add "path/to/file.html"` (Individual file)  
 `git add .` (All files)"  
 
@@ -53,7 +53,7 @@ This will set it will set this information to all repositories from your compute
 `git log --author "Name of someone"` (Show only commits from that person) 
 
 You can concatenate parameters:  
-`git log -- oneline --reverse --graph`
+`git log --oneline --reverse --graph`
 
 ###See details of a commit
 `git show` (Show changes from the last commit)  
