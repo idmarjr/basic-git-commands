@@ -85,6 +85,7 @@ You can concatenate parameters:
 `git revert -m SHA` (Not creating a new commit. Keep revert files unstaged)  
 
 ##Branches
+---
 
 ###View list of local branches
 `git branch`  
@@ -106,6 +107,7 @@ To merge a branch you need to checkout to the branch that will receive the merge
 2. `git merge name-of-branch-to-be-merged`  
 
 ##Rebase
+---
 
 ###Pull things from remote repository and rebase your changes on top of it
 `git pull --rebase`
