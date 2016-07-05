@@ -43,6 +43,8 @@ This will set information to all repositories from your computer.
 `git reset --hard HEAD "path/to/file.html"` (Individual file)   
 `git reset --hard HEAD .` (All files)  
 
+###Revert master/branch to specific commit
+`git reset --hard SHA`
 
 ###Commit changes in stage area
 `git commit -m "A nice message about your commit"`
