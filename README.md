@@ -81,12 +81,8 @@ You can concatenate parameters:
 `git branch`  
 
 ###Change to a different branch
-`git checkout name-of-branch`  
-`git checkout -b name-of-new-branch` (Create a new branch from the actual and checkout to it)  
-
-###Delete a branch
-`git branch -d name-of-branch` (Delete local branch)  
-`git push --delete origin name-of-branch` (Delete remote branch)  
+`git checkout name-of-branch` (In this case the branch need to exist before checkout)  
+`git checkout -b name-of-new-branch` (Create a new branch from the actual and checkout to it)   
 
 ###Publish branch to remote repository
 `git push -u origin name-of-branch`
