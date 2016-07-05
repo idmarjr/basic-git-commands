@@ -101,8 +101,16 @@ To merge a branch you need to checkout to the branch that will receive the merge
 ###Pull things from remote repository and rebase your changes on top of it
 `git pull --rebase`
 
-###Rebase from branch to master
+###Rebase master in to branch
 You need to be in the branch:  
-1. `git rebase maseter`  
+`git rebase master`  
+
+###Rebase one branch in to another
+You need to be in the branch that will receive the rebase  
+`git rebase name-of-branch-to-be-rebased`  
+
+###Rebase master in to branch and merge it to master
+You need to be in the branch:  
+1. `git rebase master`  
 2. `git checkout master`  
 3. `git merge name-of-branch`  
