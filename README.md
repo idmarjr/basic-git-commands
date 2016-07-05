@@ -47,6 +47,13 @@ This will set information to all repositories from your computer.
 ###Commit changes in stage area
 `git commit -m "A nice message about your commit"`
 
+###Modify local commit
+`git commit --amend` (Modify just the message from last local commit)  
+
+Add a new file to stage area and include it to last local commit:  
+1. `git add path/to-file.html`  
+2. `git commit --amend "A nice new message about your commit"`  
+
 ###Pull things to remote repo
 `git pull`
 
