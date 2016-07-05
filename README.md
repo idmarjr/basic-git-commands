@@ -35,7 +35,16 @@ This will set information to all repositories from your computer.
 `git add "path/to/file.html"` (Individual file)  
 `git add .` (All files)"  
 
-###Commit files in stage area
+###Remove changes from stage area (And keep it as untracked)
+`git reset HEAD "path/to/file.html"` (Individual file)   
+`git reset HEAD .` (All files)  
+
+###Remove changes from stage area (And discard it)
+`git reset --hard HEAD "path/to/file.html"` (Individual file)   
+`git reset --hard HEAD .` (All files)  
+
+
+###Commit changes in stage area
 `git commit -m "A nice message about your commit"`
 
 ###Pull things to remote repo
