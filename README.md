@@ -1,5 +1,10 @@
 #Basic git commands
 
+##Disclaimer
+---
+This document serve as a reference of git commands. Its organization follow a (kind of) logical order to help you to understand how git works from scratch, but notice that its just a *reference*. 
+
+
 ##Your information
 ---
 ###View your info
