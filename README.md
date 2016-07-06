@@ -2,9 +2,17 @@
 
 ##Disclaimer
 ---
-This document serve as a reference of git commands. Its organization follow a (kind of) logical order to help you to understand how git works from scratch, but notice that its just a *reference*. 
+This document serve as a reference of git commands. Its organization follow a (kind of) logical order to help you to understand how git works from scratch, but notice that its just a *reference*. If you want to start from zero with git, I strongly recomend you to take a look in those links (In this order):
 
+1. [Try Git Tutorial](http://try.github.io/);
+2. [Git-it](https://github.com/jlord/git-it-electron#git-it-desktop-app);
+3. The document that you're reading right now;
+4. [Roger Dudler - Git Guide](http://rogerdudler.github.io/git-guide/);
+5. [Bruno Passos - Git commands](https://github.com/bpassos/git-commands);
 
+Now that you know it, feel free to go through this document. I hope it help! :nerd_face:  
+  
+  
 ##Your information
 ---
 ###View your info
