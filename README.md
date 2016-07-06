@@ -2,19 +2,15 @@
 
 ##Your information
 ---
-###See what's your name in commits
-`git config user.name`
+###View your info
+`git config user.name` (See how your name is displayed in commits)  
+`git config user.email` (See what is your email showed in commits)    
 
-####Config your name to commits
-`git config user.name "Your name here"`
+###Setup your info in a single repository
+`git config user.name "Your name here"`  
+`git config user.email "myemail@mydomain.com"`  
 
-###See what's your email in commits
-`git config user.email`
-
-####Config your email to commits
-`git config user.email "myemail@mydomain.com"`
-
-###Global config
+###Global setup
 This will set information to all repositories from your computer.  
 `git config --global user.name "Your name here"`  
 `git config --global user.email "myemail@mydomain.com"`  
