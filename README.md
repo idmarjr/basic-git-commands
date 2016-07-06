@@ -10,7 +10,7 @@ This document serve as a reference of git commands. Its organization follow a (k
 4. [Roger Dudler - Git Guide](http://rogerdudler.github.io/git-guide/);
 5. [Bruno Passos - Git commands](https://github.com/bpassos/git-commands);
 
-Now that you know it, feel free to go through this document. I hope it help! :nerd_face:  
+Now that you know it, feel free to go through this document. I hope it help! :sunglasses:  
   
   
 ##Your information
