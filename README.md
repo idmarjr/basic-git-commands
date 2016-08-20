@@ -86,6 +86,10 @@ You can concatenate parameters:
 `git show` (Show changes from the last commit)  
 `git show SHA` (Show changes from a specific commit)
 
+###See modified files in your local working copy (If there are any)
+`git diff`
+`git diff --stats`(Resumed status version)
+
 ###See differences in a commit
 `git diff SHA`
 
