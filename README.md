@@ -55,6 +55,10 @@ This will set information to all repositories from your computer.
 ###Revert master/branch to specific commit
 `git reset --hard SHA`
 
+###Remove local untracked files (Files that are not under version control)
+`git clean -f path/to/file` (individual files)  
+`git clean -df` (All files)  
+
 ###Commit changes in stage area
 `git commit -m "A nice message about your commit"`
 
@@ -84,11 +88,11 @@ You can concatenate parameters:
 
 ###See details of a commit
 `git show` (Show changes from the last commit)  
-`git show SHA` (Show changes from a specific commit)
+`git show SHA` (Show changes from a specific commit)  
 
 ###See modified files in your local working copy (If there are any)
-`git diff`
-`git diff --stats`(Resumed status version)
+`git diff`  
+`git diff --stats` (Resumed status version)  
 
 ###See differences in a commit
 `git diff SHA`
