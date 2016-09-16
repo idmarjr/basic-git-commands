@@ -28,24 +28,30 @@ This will set information to all repositories from your computer.
 `git config --global user.name "Your name here"`  
 `git config --global user.email "myemail@mydomain.com"`  
 
+[[+] More info about `git config`](https://git-scm.com/docs/git-config)  
+
 ##Workflow commands
 ---
 ###Start a repo
-`git init`
+`git init`  
+[[+] More info about `git init`](https://git-scm.com/docs/git-init)  
 
 ###See repo's status
-`git status`
+`git status`  
+[[+] More info about `git status`](https://git-scm.com/docs/git-status)  
 
 ###Revert modified files
 `git checkout "path/to/file.html"` (Individual file)  
 `git checkout .` (All files)  
+[[+] More info about `git checkout`](https://git-scm.com/docs/git-checkout)  
 
 ###Add changes to stage area
 `git add "path/to/file.html"` (Individual file)  
 `git add .` (All files)"  
+[[+] More info about `git add`](https://git-scm.com/docs/git-add)  
 
 ###Remove changes from stage area (And keep it as untracked)
-`git reset HEAD "path/to/file.html"` (Individual file)   
+`git reset HEAD "path/to/file.html"` (Individual file)  
 `git reset HEAD .` (All files)  
 
 ###Remove changes from stage area (And discard it)
@@ -53,11 +59,13 @@ This will set information to all repositories from your computer.
 `git reset --hard HEAD .` (All files)  
 
 ###Revert master/branch to specific commit
-`git reset --hard SHA`
+`git reset --hard SHA`  
+[[+] More info about `git reset`](https://git-scm.com/docs/git-reset)  
 
 ###Remove local untracked files (Files that are not under version control)
 `git clean -f path/to/file` (individual files)  
 `git clean -df` (All files)  
+[[+] More info about clean](https://git-scm.com/docs/git-clean)
 
 ###Commit changes in stage area
 `git commit -m "A nice message about your commit"`
@@ -69,11 +77,17 @@ Add a new file to stage area and include it to last local commit:
 1. `git add path/to-file.html`  
 2. `git commit --amend "A nice new message about your commit"`  
 
+[[+] More info about `git add`](https://git-scm.com/docs/git-add)  
+[[+] More info about `git commit`](https://git-scm.com/docs/git-commit)  
+
+
 ###Pull things to remote repo
-`git pull`
+`git pull`  
+[[+] More info about `git pull`](https://git-scm.com/docs/git-pull)  
 
 ###Push things to remote repo
-`git push`
+`git push`  
+[[+] More info about `git push`](https://git-scm.com/docs/git-push)  
 
 ###See the history of changes
 `git log`  
@@ -84,28 +98,33 @@ Add a new file to stage area and include it to last local commit:
 `git log --author "Name of someone"` (Show only commits from that person) 
 
 You can concatenate parameters:  
-`git log --oneline --reverse --graph`
+`git log --oneline --reverse --graph`  
+[[+] More info about `git log`](https://git-scm.com/docs/git-log)  
 
 ###See details of a commit
 `git show` (Show changes from the last commit)  
 `git show SHA` (Show changes from a specific commit)  
+[[+] More info about `git show`](https://git-scm.com/docs/git-show)  
 
 ###See modified files in your local working copy (If there are any)
 `git diff`  
 `git diff --stats` (Resumed status version)  
 
 ###See differences in a commit
-`git diff SHA`
+`git diff SHA`  
+[[+] More info about `git diff`](https://git-scm.com/docs/git-diff)  
 
 ###Revert changes of a specific commit
 `git revert SHA` (Creating a new commit)  
 `git revert -m SHA` (Not creating a new commit. Keep revert files unstaged)  
+[[+] More info about `git revert`](https://git-scm.com/docs/git-revert)  
 
 ##Branches
 ---
 
 ###View list of local branches
 `git branch`  
+[[+] More info about `git branch`](https://git-scm.com/docs/git-branch)  
 
 ###Change to a different branch
 `git checkout name-of-branch` (In this case the branch need to exist before checkout)  
@@ -132,6 +151,7 @@ To merge a branch you need to checkout to the branch that will receive the merge
 ###Rebase master in to branch
 You need to be in the branch:  
 `git rebase master`  
+[[+] More info about `git rebase`](https://git-scm.com/docs/git-rebase)  
 
 ###Rebase one branch in to another
 You need to be in the branch that will receive the rebase  
