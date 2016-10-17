@@ -122,8 +122,10 @@ You can concatenate parameters:
 ##Branches
 ---
 
-###View list of local branches
-`git branch`  
+###View list of branches
+`git branch` (Only local branches)  
+`git branch --remote` or `git branch -r` (Only remote branches)  
+`git branch --all` or `git branch -a` (Local and remote branches)  
 [[+] More info about branch](https://git-scm.com/docs/git-branch)  
 
 ###Change to a different branch
