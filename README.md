@@ -139,8 +139,10 @@ You can concatenate parameters:
 `git push -u origin name-of-branch`
 
 ###Delete a branch
-`git branch -d name-of-branch` (Delete local branch)  
-`git push --delete origin name-of-branch` (Delete remote branch) 
+`git branch -d name-of-branch` (Delete local branch only if it's updated with remote version of it.)  
+`git branch -D name-of-branch` (Delete local branch even if you have non pushed changes to remote version of it.)  
+
+`git push -d origin name-of-branch` (Delete remote branch) 
 
 ##Merge branches
 To merge a branch you need to checkout to the branch that will receive the merge:  
