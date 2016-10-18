@@ -107,8 +107,9 @@ You can concatenate parameters:
 [[+] More info about show](https://git-scm.com/docs/git-show)  
 
 ###See modified files in your local working copy (If there are any)
-`git diff`  
-`git diff --stats` (Resumed status version)  
+`git diff` (Long version)  
+`git diff --stat` (Resumed status version)  
+`git diff --name-only` (Show only list of diles that have changes)  
 
 ###See differences in a commit
 `git diff SHA`  
