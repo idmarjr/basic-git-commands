@@ -102,8 +102,9 @@ You can concatenate parameters:
 [[+] More info about log](https://git-scm.com/docs/git-log)  
 
 ###See details of a commit
-`git show` (Show changes from the last commit)  
-`git show SHA` (Show changes from a specific commit)  
+`git show` (Show last commit, including diff of each file)  
+`git show SHA` (Show a specific commit)  
+`git show --stat SHA` (Show a commit but instead of show diff, shows only diffstat)  
 [[+] More info about show](https://git-scm.com/docs/git-show)  
 
 ###See modified files in your local working copy (If there are any)
