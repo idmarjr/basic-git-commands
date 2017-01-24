@@ -79,8 +79,7 @@ Add a new file to stage area and include it to last local commit:
 
 [[+] More info about add](https://git-scm.com/docs/git-add)  
 [[+] More info about commit](https://git-scm.com/docs/git-commit)  
-
-
+  
 ###Pull things to remote repo
 `git pull`  
 [[+] More info about pull](https://git-scm.com/docs/git-pull)  
@@ -146,14 +145,14 @@ You can concatenate parameters:
 
 `git push -d origin name-of-branch` (Delete remote branch) 
 
-##Merge branches
+###Merge branches
 To merge a branch you need to checkout to the branch that will receive the merge:  
 1. `git checkout name-of-branch-will-receive-merge`  
 2. `git merge name-of-branch-to-be-merged`  
-
+  
+  
 ##Rebase
 ---
-
 ###Pull things from remote repository and rebase your changes on top of it
 `git pull --rebase`
 
