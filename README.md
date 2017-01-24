@@ -170,3 +170,11 @@ You need to be in the branch:
 1. `git rebase master`  
 2. `git checkout master`  
 3. `git merge name-of-branch`  
+  
+    
+##Repository statistics
+---
+###View shortlog of contributors and commits
+`git shortlog` (Show commits description splited by user)   
+`git shortlog -s -n` (Show name and number of commits per user ordered by More commits to less commits)  
+[[+] More info about shortlog](https://git-scm.com/docs/git-shortlog)  
