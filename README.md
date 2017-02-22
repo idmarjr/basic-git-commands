@@ -36,6 +36,10 @@ This will set information to all repositories from your computer.
 `git init`  
 [[+] More info about init](https://git-scm.com/docs/git-init)  
 
+###Set remote address to local repo
+`git remote add origin <URL>` (Set repo origin)  
+`git remote add upstream <URL>` (Set upstream if you have it.)  
+
 ###See repo's status
 `git status`  
 [[+] More info about status](https://git-scm.com/docs/git-status)  
