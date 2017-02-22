@@ -84,6 +84,9 @@ Add a new file to stage area and include it to last local commit:
 [[+] More info about add](https://git-scm.com/docs/git-add)  
 [[+] More info about commit](https://git-scm.com/docs/git-commit)  
   
+###Check what's new in the server before pull
+`git fetch --dry-run`  
+  
 ###Pull things to remote repo
 `git pull`  
 [[+] More info about pull](https://git-scm.com/docs/git-pull)  
