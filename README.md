@@ -117,6 +117,7 @@ You can concatenate parameters:
 `git diff` (Long version)  
 `git diff --stat` (Resumed status version)  
 `git diff --name-only` (Show only list of diles that have changes)  
+`git diff --staged` (Show difference in files that you already added to the stage area (git add))  
 
 ###See your log of your activities in the repo
 `git reflog` (Short version)
