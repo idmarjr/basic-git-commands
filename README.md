@@ -118,6 +118,11 @@ You can concatenate parameters:
 `git diff --stat` (Resumed status version)  
 `git diff --name-only` (Show only list of diles that have changes)  
 
+###See your log of your activities in the repo
+`git reflog` (Short version)
+`git reflog --pretty` (Detailed version)
+[[+] More info about reflog](https://git-scm.com/docs/git-reflog)  
+
 ###See differences in a commit
 `git diff SHA`  
 [[+] More info about diff](https://git-scm.com/docs/git-diff)  
