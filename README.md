@@ -28,6 +28,9 @@ This will set information to all repositories from your computer.
 `git config --global user.name "Your name here"`  
 `git config --global user.email "myemail@mydomain.com"`  
 
+### Edit global ~/.gitconfig file
+`git config --global --edit`  
+
 [[+] More info about config](https://git-scm.com/docs/git-config)  
 
 ## Workflow commands
