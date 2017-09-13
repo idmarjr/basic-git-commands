@@ -45,6 +45,7 @@ This will set information to all repositories from your computer.
 
 ### See repo's status
 `git status`  
+`git status -s` (Short version)  
 [[+] More info about status](https://git-scm.com/docs/git-status)  
 
 ### Revert modified files
